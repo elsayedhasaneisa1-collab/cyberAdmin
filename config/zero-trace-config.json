@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
-  "updatedAt": "2026-11-13T23:11:37.336Z",
+  "revision": 6,
+  "updatedAt": "2026-11-13T23:15:34.764Z",
   "updatedBy": "elsayedhasaneisa1@gmail.com",
   "botProfile": {
     "displayNameAr": "ZERO TRACE | الذكاء السيبراني",
@@ -709,7 +709,7 @@
     "defaultLocale": "ar",
     "authorizedScopeNoticeAr": "تنبيه قانوني وأخلاقي: جميع أدوات الفحص في ZERO TRACE دفاعية وتعليمية بحتة ومخصصة حصريًا للنطاقات والأنظمة التي تملكها أو تملك تصريحًا رسميًا باختبارها.",
     "authorizedScopeNoticeEn": "Legal & Ethical Notice: All diagnostics in ZERO TRACE are strictly defensive and educational, restricted exclusively to domains and assets you own or have explicit authorization to test.",
-    "telegramChannelUrl": "https://t.me/",
+    "telegramChannelUrl": "https://t.me/sayedhasan_R",
     "githubPublicUrl": "https://github.com/",
     "apiRateLimitPerMinute": 40,
     "strictSsrfProtection": true
