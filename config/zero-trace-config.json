@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "revision": 9,
-  "updatedAt": "2026-11-13T23:29:16.951Z",
+  "revision": 10,
+  "updatedAt": "2026-11-13T23:32:20.952Z",
   "updatedBy": "elsayedhasaneisa1@gmail.com",
   "botProfile": {
-    "displayNameAr": "ZERO TRACE | الذكاء السيبراني",
-    "displayNameEn": "ZERO TRACE | Cyber Intelligence",
+    "displayNameAr": "SAYODA | الذكاء السيبراني",
+    "displayNameEn": "SAYODA | CYBER INTELLIGENCE",
     "shortDescriptionAr": "منصة الذكاء السيبراني الدفاعي والتعليمي المتقدمة",
     "shortDescriptionEn": "Elite Defensive Cyber Intelligence & Security Education Bot",
     "descriptionAr": "🛡️ SAYODA — ELITE CYBER INTELLIGENCE\n\nنظام متكامل للأمن السيبراني الدفاعي، وتحليل النطاقات والشبكات، والتشفير الرقمي، واستكشاف مصادر التعلم السيبراني القانونية والمعتمدة.\n\n⚡ INTELLIGENCE • ANALYSIS • DEFENSE\n\n👨‍💻 Developed by: @sayoda_elgadar",
@@ -95,6 +95,16 @@
       "descriptionEn": "Cybersecurity learning & CTF center",
       "enabled": true,
       "linkedTool": "learning_center"
+    },
+    {
+      "id": "cmd_1794612650476",
+      "command": "pass_power",
+      "descriptionAr": "قياس قوه الباسورد",
+      "descriptionEn": "Password strength measurement",
+      "enabled": true,
+      "linkedTool": "password_strength",
+      "responseTextAr": "مرحبًا بك في الأمر المخصص.",
+      "responseTextEn": "Custom command response."
     }
   ],
   "categories": [
