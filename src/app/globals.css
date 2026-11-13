@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  --zt-bg-void: #050709;
+  --zt-bg-panel: rgba(11, 16, 23, 0.78);
+  --zt-bg-elevated: rgba(16, 24, 34, 0.86);
+  --zt-neon: #00ff88;
+  --zt-neon-dim: rgba(0, 255, 136, 0.14);
+  --zt-neon-border: rgba(0, 255, 136, 0.22);
+  --zt-text-primary: #f8fafc;
+  --zt-text-muted: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--zt-bg-void);
+  color: var(--zt-text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-cairo), var(--font-space), system-ui, -apple-system, sans-serif;
+  background-image:
+    radial-gradient(circle at 15% 8%, rgba(0, 255, 136, 0.08), transparent 36%),
+    radial-gradient(circle at 85% 18%, rgba(0, 255, 136, 0.05), transparent 32%),
+    linear-gradient(rgba(0, 255, 136, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 136, 0.025) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 44px 44px, 44px 44px;
+  background-attachment: fixed;
+}
+
+.font-mono-cyber {
+  font-family: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.cyber-glass {
+  background: var(--zt-bg-panel);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 14px 38px rgba(0, 0, 0, 0.52);
+  transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
+}
+
+.cyber-glass:hover {
+  border-color: rgba(0, 255, 136, 0.24);
+}
+
+.cyber-glass-strong {
+  background: var(--zt-bg-elevated);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--zt-neon-border);
+  box-shadow: 0 0 32px rgba(0, 255, 136, 0.08), 0 18px 44px rgba(0, 0, 0, 0.65);
+}
+
+.cyber-btn-primary {
+  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+  color: #03120b;
+  font-weight: 700;
+  box-shadow: 0 0 22px rgba(0, 255, 136, 0.28);
+  transition: all 0.2s ease;
+}
+
+.cyber-btn-primary:hover:not(:disabled) {
+  box-shadow: 0 0 30px rgba(0, 255, 136, 0.48);
+  transform: translateY(-1px);
+}
+
+.cyber-btn-primary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.cyber-input {
+  background: rgba(6, 10, 15, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  color: #f8fafc;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.cyber-input:focus {
+  outline: none;
+  border-color: #00ff88;
+  box-shadow: 0 0 0 3px rgba(0, 255, 136, 0.14);
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #06090d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 136, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 255, 136, 0.45);
+}
