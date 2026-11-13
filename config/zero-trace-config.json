@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 7,
-  "updatedAt": "2026-11-13T23:28:29.895Z",
+  "revision": 8,
+  "updatedAt": "2026-11-13T23:28:43.763Z",
   "updatedBy": "elsayedhasaneisa1@gmail.com",
   "botProfile": {
     "displayNameAr": "ZERO TRACE | الذكاء السيبراني",
@@ -17,12 +17,12 @@
     "defaultLanguage": "ar"
   },
   "botFeatures": {
-    "botEnabled": true,
-    "maintenanceMode": false,
-    "inlineMenuEnabled": true,
-    "cyberToolsEnabled": true,
-    "mediaDeliveryEnabled": true,
-    "antiSpamEnabled": true,
+    "botEnabled": false,
+    "maintenanceMode": true,
+    "inlineMenuEnabled": false,
+    "cyberToolsEnabled": false,
+    "mediaDeliveryEnabled": false,
+    "antiSpamEnabled": false,
     "maxRequestsPerMinutePerUser": 15
   },
   "commands": [
