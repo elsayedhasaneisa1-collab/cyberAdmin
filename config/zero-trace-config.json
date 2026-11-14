@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 11,
-  "updatedAt": "2026-11-14T04:08:01.265Z",
+  "revision": 12,
+  "updatedAt": "2026-11-14T04:19:05.131Z",
   "updatedBy": "elsayedhasaneisa1@gmail.com",
   "botProfile": {
     "displayNameAr": "SAYODA | الذكاء السيبراني",
@@ -282,13 +282,14 @@
       "id": "btn-tool-http",
       "labelAr": "📡 محلل استجابة HTTP",
       "labelEn": "📡 HTTP Response Analyzer",
-      "type": "tool",
+      "type": "media",
       "parentId": "btn-menu-websec",
       "categoryId": "cat-websec",
       "row": 1,
       "order": 0,
       "enabled": true,
-      "toolId": "http_analyzer"
+      "toolId": "http_analyzer",
+      "mediaId": "med_1794629560416"
     },
     {
       "id": "btn-tool-hash",
@@ -363,7 +364,24 @@
       "url": "https://cheatsheetseries.owasp.org/"
     }
   ],
-  "media": [],
+  "media": [
+    {
+      "id": "med_1794629560416",
+      "titleAr": "صورة توضيحية",
+      "titleEn": "Security Infographic",
+      "descriptionAr": "شرح دفاعي تطبيقي مخصص للمتدربين.",
+      "descriptionEn": "Practical defensive cybersecurity module.",
+      "type": "photo",
+      "categoryId": "cat-recon",
+      "linkedButtonId": "btn-tool-http",
+      "externalUrl": "https://files.catbox.moe/ilkn18.png",
+      "mimeType": "image/jpeg",
+      "fileSizeBytes": 207752,
+      "published": false,
+      "createdAt": "2026-11-14T04:12:40.416Z",
+      "updatedAt": "2026-11-14T04:19:04.989Z"
+    }
+  ],
   "apis": [
     {
       "id": "api-shodan-internetdb",
