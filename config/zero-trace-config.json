@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 16,
-  "updatedAt": "2026-11-14T04:22:45.456Z",
+  "revision": 17,
+  "updatedAt": "2026-11-14T04:24:04.623Z",
   "updatedBy": "elsayedhasaneisa1@gmail.com",
   "botProfile": {
     "displayNameAr": "SAYODA | الذكاء السيبراني",
@@ -396,7 +396,9 @@
       "termsSummaryEn": "Passive read-only IP open ports, CPEs, and CVEs snapshot for non-commercial defensive use.",
       "enabled": true,
       "verifiedSource": "Shodan Official Documentation",
-      "lastStatus": "untested"
+      "lastStatus": "online",
+      "lastLatencyMs": 80,
+      "lastCheckedAt": "2026-11-14T04:23:58.939Z"
     },
     {
       "id": "api-hackertarget-hostsearch",
@@ -411,7 +413,9 @@
       "termsSummaryEn": "Passive DNS host discovery from public datasets within daily quota.",
       "enabled": true,
       "verifiedSource": "HackerTarget Official API Docs",
-      "lastStatus": "untested"
+      "lastStatus": "online",
+      "lastLatencyMs": 303,
+      "lastCheckedAt": "2026-11-14T04:23:58.940Z"
     },
     {
       "id": "api-cloudflare-doh",
@@ -426,7 +430,9 @@
       "termsSummaryEn": "Public encrypted DNS JSON resolution with DNSSEC validation flags.",
       "enabled": true,
       "verifiedSource": "Cloudflare Developers Documentation",
-      "lastStatus": "untested"
+      "lastStatus": "online",
+      "lastLatencyMs": 57,
+      "lastCheckedAt": "2026-11-14T04:23:58.941Z"
     },
     {
       "id": "api-google-doh",
@@ -441,7 +447,9 @@
       "termsSummaryEn": "Google Public DNS JSON API under standard fair-use rate limits.",
       "enabled": true,
       "verifiedSource": "Google Public DNS Official Docs",
-      "lastStatus": "untested"
+      "lastStatus": "online",
+      "lastLatencyMs": 69,
+      "lastCheckedAt": "2026-11-14T04:23:58.941Z"
     },
     {
       "id": "api-ipwhois",
@@ -456,7 +464,9 @@
       "termsSummaryEn": "Free non-commercial IP geolocation, ISP, and ASN enrichment up to 10k/month.",
       "enabled": true,
       "verifiedSource": "ipwhois.io Official Documentation",
-      "lastStatus": "untested"
+      "lastStatus": "online",
+      "lastLatencyMs": 72,
+      "lastCheckedAt": "2026-11-14T04:23:58.941Z"
     },
     {
       "id": "api-ripestat",
@@ -471,7 +481,9 @@
       "termsSummaryEn": "Official RIPE NCC BGP prefix and ASN routing intelligence.",
       "enabled": true,
       "verifiedSource": "RIPE NCC Official Data API",
-      "lastStatus": "untested"
+      "lastStatus": "online",
+      "lastLatencyMs": 297,
+      "lastCheckedAt": "2026-11-14T04:23:58.941Z"
     },
     {
       "id": "api-rdap-org",
@@ -486,7 +498,9 @@
       "termsSummaryEn": "ICANN-mandated IETF standard HTTPS JSON registration protocol replacing port-43 WHOIS.",
       "enabled": true,
       "verifiedSource": "ICANN / IANA RDAP Bootstrap",
-      "lastStatus": "untested"
+      "lastStatus": "online",
+      "lastLatencyMs": 153,
+      "lastCheckedAt": "2026-11-14T04:23:58.941Z"
     },
     {
       "id": "api-arin-rdap",
@@ -501,7 +515,9 @@
       "termsSummaryEn": "Official Regional Internet Registry IP block allocation records.",
       "enabled": true,
       "verifiedSource": "ARIN Official RDAP Documentation",
-      "lastStatus": "untested"
+      "lastStatus": "online",
+      "lastLatencyMs": 60,
+      "lastCheckedAt": "2026-11-14T04:23:58.941Z"
     },
     {
       "id": "api-crtsh",
@@ -517,8 +533,8 @@
       "enabled": true,
       "verifiedSource": "Sectigo crt.sh Official Service",
       "lastStatus": "offline",
-      "lastLatencyMs": 5502,
-      "lastCheckedAt": "2026-11-14T04:07:55.610Z"
+      "lastLatencyMs": 5501,
+      "lastCheckedAt": "2026-11-14T04:23:58.941Z"
     },
     {
       "id": "api-verisign-rdap",
@@ -533,7 +549,9 @@
       "termsSummaryEn": "Authoritative .com/.net domain lifecycle, EPP locks, and DNSSEC status.",
       "enabled": true,
       "verifiedSource": "Verisign Official Registry RDAP",
-      "lastStatus": "untested"
+      "lastStatus": "online",
+      "lastLatencyMs": 55,
+      "lastCheckedAt": "2026-11-14T04:23:58.942Z"
     },
     {
       "id": "api-urlscan-search",
@@ -549,7 +567,9 @@
       "termsSummaryEn": "Public scan index lookup; optional free API key raises quota and enables active submissions.",
       "enabled": true,
       "verifiedSource": "urlscan.io Official API Docs",
-      "lastStatus": "untested"
+      "lastStatus": "online",
+      "lastLatencyMs": 342,
+      "lastCheckedAt": "2026-11-14T04:23:58.942Z"
     },
     {
       "id": "api-urlhaus",
@@ -565,7 +585,9 @@
       "termsSummaryEn": "Non-profit malware URL tracking project by abuse.ch; v1 API requires free Auth-Key.",
       "enabled": true,
       "verifiedSource": "abuse.ch URLhaus Official Portal",
-      "lastStatus": "untested"
+      "lastStatus": "degraded",
+      "lastLatencyMs": 82,
+      "lastCheckedAt": "2026-11-14T04:23:58.942Z"
     },
     {
       "id": "api-cisa-kev",
