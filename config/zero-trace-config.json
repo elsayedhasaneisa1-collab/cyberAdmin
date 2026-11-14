@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 18,
-  "updatedAt": "2026-11-14T04:24:51.284Z",
+  "revision": 19,
+  "updatedAt": "2026-11-14T04:28:52.199Z",
   "updatedBy": "elsayedhasaneisa1@gmail.com",
   "botProfile": {
     "displayNameAr": "SAYODA | الذكاء السيبراني",
@@ -757,7 +757,7 @@
     }
   ],
   "settings": {
-    "platformTitle": "ZERO TRACE — ELITE CYBER INTELLIGENCE SYSTEM",
+    "platformTitle": "SAYODA— ELITE CYBER INTELLIGENCE SYSTEM",
     "defaultLocale": "ar",
     "authorizedScopeNoticeAr": "تنبيه قانوني وأخلاقي: جميع أدوات الفحص في ZERO TRACE دفاعية وتعليمية بحتة ومخصصة حصريًا للنطاقات والأنظمة التي تملكها أو تملك تصريحًا رسميًا باختبارها.",
     "authorizedScopeNoticeEn": "Legal & Ethical Notice: All diagnostics in ZERO TRACE are strictly defensive and educational, restricted exclusively to domains and assets you own or have explicit authorization to test.",
