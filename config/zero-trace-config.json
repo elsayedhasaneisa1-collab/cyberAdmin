@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 21,
-  "updatedAt": "2026-11-19T14:29:24.797Z",
+  "revision": 22,
+  "updatedAt": "2026-11-19T14:29:46.703Z",
   "updatedBy": "elsayedhasaneisa1@gmail.com",
   "botProfile": {
     "displayNameAr": "SAYODA | الذكاء السيبراني",
@@ -567,9 +567,9 @@
       "termsSummaryEn": "Public scan index lookup; optional free API key raises quota and enables active submissions.",
       "enabled": true,
       "verifiedSource": "urlscan.io Official API Docs",
-      "lastStatus": "offline",
-      "lastLatencyMs": 5502,
-      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
+      "lastStatus": "online",
+      "lastLatencyMs": 366,
+      "lastCheckedAt": "2026-11-19T14:29:46.210Z"
     },
     {
       "id": "api-urlhaus",
