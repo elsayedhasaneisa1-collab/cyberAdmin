@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 20,
-  "updatedAt": "2026-11-14T04:32:17.013Z",
+  "revision": 21,
+  "updatedAt": "2026-11-19T14:29:24.797Z",
   "updatedBy": "elsayedhasaneisa1@gmail.com",
   "botProfile": {
     "displayNameAr": "SAYODA | الذكاء السيبراني",
@@ -397,8 +397,8 @@
       "enabled": true,
       "verifiedSource": "Shodan Official Documentation",
       "lastStatus": "online",
-      "lastLatencyMs": 73,
-      "lastCheckedAt": "2026-11-14T04:32:11.360Z"
+      "lastLatencyMs": 63,
+      "lastCheckedAt": "2026-11-19T14:29:19.069Z"
     },
     {
       "id": "api-hackertarget-hostsearch",
@@ -414,8 +414,8 @@
       "enabled": true,
       "verifiedSource": "HackerTarget Official API Docs",
       "lastStatus": "online",
-      "lastLatencyMs": 282,
-      "lastCheckedAt": "2026-11-14T04:32:11.361Z"
+      "lastLatencyMs": 267,
+      "lastCheckedAt": "2026-11-19T14:29:19.071Z"
     },
     {
       "id": "api-cloudflare-doh",
@@ -431,8 +431,8 @@
       "enabled": true,
       "verifiedSource": "Cloudflare Developers Documentation",
       "lastStatus": "online",
-      "lastLatencyMs": 45,
-      "lastCheckedAt": "2026-11-14T04:32:11.361Z"
+      "lastLatencyMs": 46,
+      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
     },
     {
       "id": "api-google-doh",
@@ -448,8 +448,8 @@
       "enabled": true,
       "verifiedSource": "Google Public DNS Official Docs",
       "lastStatus": "online",
-      "lastLatencyMs": 54,
-      "lastCheckedAt": "2026-11-14T04:32:11.361Z"
+      "lastLatencyMs": 55,
+      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
     },
     {
       "id": "api-ipwhois",
@@ -465,8 +465,8 @@
       "enabled": true,
       "verifiedSource": "ipwhois.io Official Documentation",
       "lastStatus": "online",
-      "lastLatencyMs": 64,
-      "lastCheckedAt": "2026-11-14T04:32:11.361Z"
+      "lastLatencyMs": 66,
+      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
     },
     {
       "id": "api-ripestat",
@@ -482,8 +482,8 @@
       "enabled": true,
       "verifiedSource": "RIPE NCC Official Data API",
       "lastStatus": "online",
-      "lastLatencyMs": 290,
-      "lastCheckedAt": "2026-11-14T04:32:11.361Z"
+      "lastLatencyMs": 402,
+      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
     },
     {
       "id": "api-rdap-org",
@@ -499,8 +499,8 @@
       "enabled": true,
       "verifiedSource": "ICANN / IANA RDAP Bootstrap",
       "lastStatus": "online",
-      "lastLatencyMs": 128,
-      "lastCheckedAt": "2026-11-14T04:32:11.361Z"
+      "lastLatencyMs": 207,
+      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
     },
     {
       "id": "api-arin-rdap",
@@ -516,8 +516,8 @@
       "enabled": true,
       "verifiedSource": "ARIN Official RDAP Documentation",
       "lastStatus": "online",
-      "lastLatencyMs": 215,
-      "lastCheckedAt": "2026-11-14T04:32:11.362Z"
+      "lastLatencyMs": 213,
+      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
     },
     {
       "id": "api-crtsh",
@@ -532,9 +532,9 @@
       "termsSummaryEn": "Public Certificate Transparency log lookup operated by Sectigo.",
       "enabled": true,
       "verifiedSource": "Sectigo crt.sh Official Service",
-      "lastStatus": "offline",
-      "lastLatencyMs": 5502,
-      "lastCheckedAt": "2026-11-14T04:32:11.362Z"
+      "lastStatus": "online",
+      "lastLatencyMs": 468,
+      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
     },
     {
       "id": "api-verisign-rdap",
@@ -550,8 +550,8 @@
       "enabled": true,
       "verifiedSource": "Verisign Official Registry RDAP",
       "lastStatus": "online",
-      "lastLatencyMs": 36,
-      "lastCheckedAt": "2026-11-14T04:32:11.362Z"
+      "lastLatencyMs": 40,
+      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
     },
     {
       "id": "api-urlscan-search",
@@ -567,9 +567,9 @@
       "termsSummaryEn": "Public scan index lookup; optional free API key raises quota and enables active submissions.",
       "enabled": true,
       "verifiedSource": "urlscan.io Official API Docs",
-      "lastStatus": "online",
-      "lastLatencyMs": 934,
-      "lastCheckedAt": "2026-11-14T04:32:11.362Z"
+      "lastStatus": "offline",
+      "lastLatencyMs": 5502,
+      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
     },
     {
       "id": "api-urlhaus",
@@ -586,8 +586,8 @@
       "enabled": true,
       "verifiedSource": "abuse.ch URLhaus Official Portal",
       "lastStatus": "degraded",
-      "lastLatencyMs": 48,
-      "lastCheckedAt": "2026-11-14T04:32:11.362Z"
+      "lastLatencyMs": 53,
+      "lastCheckedAt": "2026-11-19T14:29:19.072Z"
     },
     {
       "id": "api-cisa-kev",
